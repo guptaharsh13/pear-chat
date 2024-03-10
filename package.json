@@ -1,0 +1,25 @@
+{
+  "name": "chat",
+  "main": "index.html",
+  "type": "module",
+  "pear": {
+    "gui": {
+      "backgroundColor": "#012a02",
+      "height": 400,
+      "width": 700
+    }
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "brittle": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "pear dev",
+    "test": "brittle test/*.test.js"
+  },
+  "dependencies": {
+    "b4a": "^1.6.6",
+    "hypercore-crypto": "^3.4.0",
+    "hyperswarm": "^4.7.14"
+  }
+}
